@@ -14,10 +14,10 @@ buildPythonPackage {
   pyproject = true;
 
   src = fetchFromGitHub {
-    owner = "lukebfox";
+    owner = "shyblower";
     repo = "nixops-hetznercloud";
-    rev = "e14f340f7ffe9e2aa7ffbaac0b8a2e3b4cc116b3";
-    hash = "sha256-IsRJUUAfN6YXcue80qlcunkawUtgMiMU8mM6DP+7Cm4=";
+    rev = "2cbdd7234d40e1f937b264ed053a4f9df06963c";
+    hash = "sha256-rH1icbjvDGtQkbrcfepstyvUhFEMtxqjSNJKQH8RUl8=";
   };
 
   postPatch = ''
