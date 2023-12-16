@@ -17,10 +17,10 @@ buildPythonApplication rec {
   pyproject = true;
 
   src = fetchFromGitHub {
-    owner = "NixOS";
+    owner = "shyblower";
     repo = "nixops";
-    rev = "2cfc2cb4fa9ecb89a4274574ff7f63ea61782498";
-    hash = "sha256-4uvQQkERZFEeRJjMAcyLYJzNvH0rNiiJ+5BDQmD58gI=";
+    rev = "e43c82fb7ed2c210199e95753b6f7c9ad8b6faea";
+    hash = "sha256-Kus1Ls1tT8fVGLX0NakRXmjuz5/J/tfqU4TLOkiZqvo=";
   };
 
   postPatch = ''
